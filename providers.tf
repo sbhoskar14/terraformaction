@@ -1,9 +1,8 @@
 provider "azurerm" {
   features {
-
+    
   }
 }
-
 terraform {
  backend "azurerm" {
    storage_account_name = "sbstoragestate"
