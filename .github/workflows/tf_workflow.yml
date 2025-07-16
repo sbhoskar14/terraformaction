@@ -1,14 +1,20 @@
 name: TerraformAzureWorkflow
 
+
 on:
    push:
        branches:
            - main
 
+
 jobs:
    SetUp:
        name: terraformsetup
        runs-on: ubuntu-latest
+
+
+
+
        steps:
            - name: checkout repository
              uses: actions/checkout@v4
